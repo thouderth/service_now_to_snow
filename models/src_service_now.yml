@@ -1,0 +1,9 @@
+sources:
+  - name: source_db
+    description: "Snowflake database with ingested SERVICE NOW tables."
+    database: SANDBOX_TME
+    schema: RAW
+    tables:
+      - name: raw
+        identifier: raw_data
+      
